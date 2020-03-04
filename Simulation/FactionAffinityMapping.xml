@@ -29,8 +29,8 @@
   </FactionAffinityMapping>
   <!-- Sophons -->
   <FactionAffinityMapping Name="AffinityMappingSophons" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="5">
-    <Command Name="RecruitHero" Arguments="HeroSmartAISophons01" />
-    <Command Name="RecruitHero" Arguments="HeroPilgrims01" />
+    <Command Name="RecruitHero" Arguments="HeroSmartAISophons01" /> 
+    <Command Name="RecruitHero" Arguments="HeroSmartAIPilgrims01" />
     <SimulationDescriptorReference Name="AffinityMappingSophons" />
     <ShipDesign Abstract="SuperColonizer" ShipDesign="Sophons_SuperColonizer" />
     <ShipDesign Abstract="Colonizer" ShipDesign="Sophons_Colonizer" />
@@ -156,11 +156,7 @@
   </FactionAffinityMapping>
   <!-- Venetians -->
   <FactionAffinityMapping Name="AffinityMappingVenetians" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="10">
-    <!--<Command Name="RecruitHero" Arguments="HeroVenetians03" />
-    <Command Name="RecruitHero" Arguments="HeroVenetians01" />
-    <Command Name="RecruitHero" Arguments="HeroVenetians02" />
-    <Command Name="RecruitHero" Arguments="HeroVenetians04" /> -->
-    <Command Name="RecruitHero" Arguments="HeroVenetians05" />
+    <Command Name="RecruitHero" Arguments="HeroSmartAIVenetians01" />
     <Command Name="RecruitHero" Arguments="HeroGnashasts01" />
     <SimulationDescriptorReference Name="AffinityMappingVenetians" />
     <ShipDesign Abstract="SuperColonizer" ShipDesign="Venetians_SuperColonizer" />

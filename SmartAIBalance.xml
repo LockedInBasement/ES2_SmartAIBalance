@@ -45,7 +45,7 @@
 		<ExtraTypes>
         		<ExtraType DataType="HeroGuiElement, Assembly-CSharp" />
 		</ExtraTypes> 
-		<FilePath>Gui/GuiElements.xml</FilePath>
+		<FilePath>Gui/Heroes.xml</FilePath>
 	</DatabasePlugin>
 
         <DatabasePlugin DataType="HeroDefinition, Assembly-CSharp">

@@ -1,4 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--Politics: 
+HeroPolitics01 - Industry
+HeroPolitics02 - Science
+HeroPolitics03 - Pacyfist
+HeroPolitics04 - Ecologist
+HeroPolitics05 - Religion
+HeroPolitics06 - Military
+ -->
+
+
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/HeroDefinition.xsd">
 
     <!-- SOPHONS -->
@@ -530,6 +541,22 @@
         <SkillTree Name="HeroSkillTreeAdmiral"/>
         <LevelUpRuleReference Name="HeroLevelUpRule"/>
     </HeroDefinition>
+  
+    <HeroDefinition Name="HeroSmartAIVenetians01">
+		<Skill Name="HeroSkill01Venetians05"/>
+        <Skill Name="HeroSkill02Venetians05"/>
+
+        <Affinity Name="HeroAffinityVenetians"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeVenetians"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
     
     <!-- VAMPIRILIS -->
     <HeroDefinition Name="HeroVampirilis01">
@@ -735,7 +762,7 @@
 
         <Affinity Name="HeroAffinityAdvanced"/>
         <Class Name="HeroClassAdmiral"/>
-        <Politics Name="HeroPolitics05"/>
+        <Politics Name="HeroPolitics01"/>
 
         <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
 
@@ -1075,4 +1102,42 @@
         <SkillTree Name="HeroSkillTreeAdventurer"/>
         <LevelUpRuleReference Name="HeroLevelUpRule"/>
     </HeroDefinition>
+
+<!-- Heroes added by me-->
+
+<!--Sophons -->
+    <HeroDefinition Name="HeroSmartAISophons01">
+		<Skill Name="HeroSkill01Sophons05"/>
+        <Skill Name="HeroSkill02Sophons05"/>
+
+        <Affinity Name="HeroAffinitySophons"/>
+        <Class Name="HeroClassCorporate"/>
+        <Politics Name="HeroPolitics02"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeSophons"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+    <HeroDefinition Name="HeroSmartAIPilgrims01">
+        <Skill Name="HeroSkill01Pilgrims01"/>
+        <Skill Name="HeroSkill02Pilgrims01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics05"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+
+
 </Datatable>
