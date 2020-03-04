@@ -725,4 +725,16 @@
         </Icons>
         <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitTerrans05</ModelPath>
     </HeroGuiElement>
+
+<!--Venetians -->
+    <HeroGuiElement Name="HeroSmartAIVenetians01">
+        <Title>%HeroSmartAIVenetians01Title</Title>
+        <Description>%HeroSmartAIVenetians01Description</Description>
+        <Icons>
+            <Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroVenetians05Medium" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroVenetians05Large" />
+        </Icons>
+        <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitVenetians05</ModelPath>
+    </HeroGuiElement>
+
 </Datatable>

@@ -1155,4 +1155,21 @@ HeroPolitics06 - Military
         <LevelUpRuleReference Name="HeroLevelUpRule"/>
     </HeroDefinition>
 
+<!-- Venetians -->
+    <HeroDefinition Name="HeroSmartAIVenetians01">
+		<Skill Name="HeroSkill01Venetians05"/>
+        <Skill Name="HeroSkill02Venetians05"/>
+
+        <Affinity Name="HeroAffinityVenetians"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics03"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeVenetians"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
 </Datatable>
