@@ -1138,6 +1138,21 @@ HeroPolitics06 - Military
         <LevelUpRuleReference Name="HeroLevelUpRule"/>
     </HeroDefinition>
 
+<!--Terran -->
+    <HeroDefinition Name="HeroSmartAITerrans01">
+		<Skill Name="HeroSkill01Terrans05"/>
+        <Skill Name="HeroSkill02Terrans05"/>
 
+        <Affinity Name="HeroAffinityTerrans"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics01"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeTerrans"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
 
 </Datatable>

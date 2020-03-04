@@ -53,8 +53,7 @@
   </FactionAffinityMapping>
   <!-- Terrans -->
   <FactionAffinityMapping Name="AffinityMappingTerrans" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="10">
-     <!-- <Command Name="RecruitHero" Arguments="HeroSmartAITerran01" /> -->
-                                   <Command Name="RecruitHero" Arguments="HeroTerrans05" />
+    <Command Name="RecruitHero" Arguments="HeroSmartAITerrans01" /> 
     <Command Name="RecruitHero" Arguments="HeroHisshos01" />
     <SimulationDescriptorReference Name="AffinityMappingTerrans" />
     <ShipDesign Abstract="SuperColonizer" ShipDesign="Terrans_SuperColonizer" />

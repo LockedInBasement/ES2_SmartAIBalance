@@ -715,5 +715,14 @@
         <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitPilgrim</ModelPath>
     </HeroGuiElement>
 
-
+<!--Terran -->
+    <HeroGuiElement Name="HeroSmartAITerrans01">
+        <Title>%HeroSmartAITerrans01Title</Title>
+        <Description>%HeroSmartAITerrans01Description</Description>
+        <Icons>
+            <Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroTerrans05Medium" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroTerrans05Large" />
+        </Icons>
+        <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitTerrans05</ModelPath>
+    </HeroGuiElement>
 </Datatable>
