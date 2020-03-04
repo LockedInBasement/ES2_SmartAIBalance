@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+    <RuntimeModule Name="SmartAIBalance" Type="Extension" Version="1.0">
+
+    <!-- Title as it appears in the workshop -->
+    <Title>SmartAI - Balance Patch</Title>
+
+    <!-- Description as it appears in the workshop -->
+    <Description>This mod was developed to help player fight against extreme aggressivness of SmartAI mod. This mod should be used only in conjunction. </Description>
+    
+    <!-- Name of the author -->
+    <Author>Triumvirate</Author>
+
+    <!-- Link to your other work -->
+    <Homepage>Maybe one day who knows ;)</Homepage>
+
+    <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
+    <PreviewImageFile>ModIcon.png</PreviewImageFile>
+
+    <!-- Add more content to this each time you update the mod -->
+    <ReleaseNotes>First release.</ReleaseNotes>
+
+    <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units -->
+    <Tags>AI,Gameplay</Tags>
+
+    <Plugins>
+      
+<!-- Moudules balance for Vodyani -->
+      <DatabasePlugin DataType="ModuleDefinition, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="LogisticsModuleDefinition, Assembly-CSharp"></ExtraType>
+   	  <ExtraType DataType="MothershipModuleDefinition, Assembly-CSharp"></ExtraType>
+        </ExtraTypes>
+        <FilePath>Simulation/Battles/ModuleDefinitions[Mothership].xml</FilePath>
+      </DatabasePlugin>
+
+<!-- Hull ship balance for Unfallen -->
+      <DatabasePlugin DataType="HullDefinition, Assembly-CSharp">
+        <FilePath>Simulation/Battles/HullDefinitions[Unfallen].xml</FilePath>
+      </DatabasePlugin>
+
+<!-- Heroes definitions -->
+	<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+		<ExtraTypes>
+        		<ExtraType DataType="HeroGuiElement, Assembly-CSharp" />
+		</ExtraTypes> 
+		<FilePath>Gui/GuiElements.xml</FilePath>
+	</DatabasePlugin>
+
+        <DatabasePlugin DataType="HeroDefinition, Assembly-CSharp">
+                <FilePath>Simulation/HeroDefinitions.xml</FilePath>
+        </DatabasePlugin>
+
+<!-- Hero adding -->
+      <DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="FactionAffinityMapping, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/FactionAffinityMapping.xml</FilePath>
+      </DatabasePlugin>
+
+<!-- Starting empire gold and sience -->
+      <DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="FactionAffinity, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/FactionAffinity.xml</FilePath>
+      </DatabasePlugin>
+
+<!-- Localization files --> 
+	<LocalizationPlugin DefaultLanguage="english">		
+		<Directory>Localization</Directory>
+	</LocalizationPlugin>
+
+    </Plugins>
+  </RuntimeModule>
+</Datatable>
