@@ -53,7 +53,8 @@
   </FactionAffinityMapping>
   <!-- Terrans -->
   <FactionAffinityMapping Name="AffinityMappingTerrans" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="10">
-    <Command Name="RecruitHero" Arguments="HeroSmartAITerran01" />
+     <!-- <Command Name="RecruitHero" Arguments="HeroSmartAITerran01" /> -->
+                                   <Command Name="RecruitHero" Arguments="HeroTerrans05" />
     <Command Name="RecruitHero" Arguments="HeroHisshos01" />
     <SimulationDescriptorReference Name="AffinityMappingTerrans" />
     <ShipDesign Abstract="SuperColonizer" ShipDesign="Terrans_SuperColonizer" />
@@ -155,10 +156,10 @@
   </FactionAffinityMapping>
   <!-- Venetians -->
   <FactionAffinityMapping Name="AffinityMappingVenetians" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="10">
-    <Command Name="RecruitHero" Arguments="HeroVenetians03" />
+    <!--<Command Name="RecruitHero" Arguments="HeroVenetians03" />
     <Command Name="RecruitHero" Arguments="HeroVenetians01" />
     <Command Name="RecruitHero" Arguments="HeroVenetians02" />
-    <Command Name="RecruitHero" Arguments="HeroVenetians04" />
+    <Command Name="RecruitHero" Arguments="HeroVenetians04" /> -->
     <Command Name="RecruitHero" Arguments="HeroVenetians05" />
     <Command Name="RecruitHero" Arguments="HeroGnashasts01" />
     <SimulationDescriptorReference Name="AffinityMappingVenetians" />
