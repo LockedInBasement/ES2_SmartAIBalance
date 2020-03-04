@@ -133,7 +133,6 @@
   <FactionAffinityMapping Name="AffinityMappingVampirilis" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="5">
     <Command Name="RecruitHero" Arguments="HeroSmartAIArchivist01" />
     <Command Name="RecruitHero" Arguments="HeroSmartAIVampirilis01" />
-    <Command Name="RecruitHero" Arguments="HeroSmartAIVampirilis02" />
     <SimulationDescriptorReference Name="AffinityMappingVampirilis" />
     <ShipDesign Abstract="SuperColonizer" ShipDesign="Vampirilis_SuperColonizer" />
     <ShipDesign Abstract="Colonizer" ShipDesign="Vampirilis_Colonizer" />
