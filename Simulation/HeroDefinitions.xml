@@ -1172,4 +1172,21 @@ HeroPolitics06 - Military
         <LevelUpRuleReference Name="HeroLevelUpRule"/>
     </HeroDefinition>
 
+<!-- Vampirilis -->
+    <HeroDefinition Name="HeroSmartAIArchivist01">
+        <Skill Name="HeroSkill01HeroArchivist01"/>
+        <Skill Name="HeroSkill02HeroArchivist01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdventurer"/>
+        <Politics Name="HeroPolitics04"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdventurer"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
 </Datatable>

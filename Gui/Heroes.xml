@@ -242,16 +242,6 @@
         <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitVenetians05</ModelPath>
     </HeroGuiElement>
 
-    <HeroGuiElement Name="HeroSmartAIVenetians01">
-        <Title>%HeroSmartAIVenetians01Title</Title>
-        <Description>%HeroSmartAIVenetians01Description</Description>
-        <Icons>
-            <Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroVenetians05Medium" />
-            <Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroVenetians05Large" />
-        </Icons>
-        <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitVenetians05</ModelPath>
-    </HeroGuiElement>
-
     <HeroGuiElement Name="HeroUnfallen01">
         <Title>%HeroUnfallen01Title</Title>
         <Description>%HeroUnfallen01Description</Description>
@@ -736,5 +726,16 @@
         </Icons>
         <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitVenetians05</ModelPath>
     </HeroGuiElement>
+
+<!--Vampirilis 
+    <HeroGuiElement Name="HeroSmartAIArchivist01">
+        <Title>%HeroSmartAIArchivist01Title</Title>
+        <Description>%HeroSmartAIArchivist01Description</Description>
+        <Icons>
+            <Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroArchivist01Medium" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroArchivist01Large" />
+        </Icons>
+        <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitArchivist01</ModelPath>
+    </HeroGuiElement>-->
 
 </Datatable>
