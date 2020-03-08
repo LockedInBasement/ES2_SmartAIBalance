@@ -1227,14 +1227,14 @@ HeroPolitics06 - Military
         <Skill Name="HeroSkill02Vampirilis04"/>
 
         <Affinity Name="HeroAffinityVampirilis"/>
-        <Class Name="HeroClassCorporate"/>
+        <Class Name="HeroClassAdmiral"/>
         <Politics Name="HeroPolitics06"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
 
         <SkillTree Name="HeroSkillTreeGeneric"/>
         <SkillTree Name="HeroSkillTreeVampirilis"/>
-        <SkillTree Name="HeroSkillTreeCorporate"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
         <LevelUpRuleReference Name="HeroLevelUpRule"/>
     </HeroDefinition>
 
