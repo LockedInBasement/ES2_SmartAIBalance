@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 
-    <RuntimeModule Name="SmartAIBalance" Type="Extension" Version="1.0">
+  <RuntimeModule Name="SmartAIBalance" Type="Extension" Version="1.0">
 
     <!-- Title as it appears in the workshop -->
     <Title>SmartAI - Balance Patch</Title>
@@ -26,7 +26,7 @@
 
     <Plugins>
       
-<!-- Moudules balance for Vodyani -->
+      <!-- Moudules balance for Vodyani -->
       <DatabasePlugin DataType="ModuleDefinition, Assembly-CSharp">
         <ExtraTypes>
           <ExtraType DataType="LogisticsModuleDefinition, Assembly-CSharp"></ExtraType>
@@ -35,24 +35,24 @@
         <FilePath>Simulation/Battles/ModuleDefinitions[Mothership].xml</FilePath>
       </DatabasePlugin>
 
-<!-- Hull ship balance for Unfallen -->
+      <!-- Hull ship balance for Unfallen -->
       <DatabasePlugin DataType="HullDefinition, Assembly-CSharp">
         <FilePath>Simulation/Battles/HullDefinitions[Unfallen].xml</FilePath>
       </DatabasePlugin>
 
-<!-- Heroes definitions -->
-	<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
-		<ExtraTypes>
-        		<ExtraType DataType="HeroGuiElement, Assembly-CSharp" />
-		</ExtraTypes> 
-		<FilePath>Gui/Heroes.xml</FilePath>
-	</DatabasePlugin>
+      <!-- Heroes definitions -->
+      <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+        <ExtraTypes>
+          <ExtraType DataType="HeroGuiElement, Assembly-CSharp" />
+        </ExtraTypes> 
+        <FilePath>Gui/Heroes.xml</FilePath>
+      </DatabasePlugin>
+     
+      <DatabasePlugin DataType="HeroDefinition, Assembly-CSharp">
+          <FilePath>Simulation/HeroDefinitions.xml</FilePath>
+      </DatabasePlugin>
 
-        <DatabasePlugin DataType="HeroDefinition, Assembly-CSharp">
-                <FilePath>Simulation/HeroDefinitions.xml</FilePath>
-        </DatabasePlugin>
-
-<!-- Hero adding -->
+      <!-- Hero adding -->
       <DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
         <ExtraTypes>
           <ExtraType DataType="FactionAffinityMapping, Assembly-CSharp" />
@@ -60,7 +60,7 @@
         <FilePath>Simulation/FactionAffinityMapping.xml</FilePath>
       </DatabasePlugin>
 
-<!-- Starting empire gold and sience -->
+      <!-- Starting empire gold and sience -->
       <DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
         <ExtraTypes>
           <ExtraType DataType="FactionAffinity, Assembly-CSharp" />
@@ -68,11 +68,29 @@
         <FilePath>Simulation/FactionAffinity.xml</FilePath>
       </DatabasePlugin>
 
-<!-- Localization files --> 
-	<LocalizationPlugin DefaultLanguage="english">		
-		<Directory>Localization</Directory>
-	</LocalizationPlugin>
+      <!-- Skill tree -->
+      <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+        <ExtraTypes>
+          <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+        </ExtraTypes>
+        <FilePath>Gui/HeroSkills.xml</FilePath>
+      </DatabasePlugin>
 
+      <DatabasePlugin DataType="HeroSkillTreeDefinition, Assembly-CSharp">
+        <FilePath>Simulation/HeroSkillTreeDefinitions.xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="HeroSkillDefinition, Assembly-CSharp">
+        <FilePath>Simulation/HeroSkillDefinitions.xml</FilePath>
+      </DatabasePlugin> 
+
+      <!-- Localization files --> 
+      <LocalizationPlugin DefaultLanguage="english">		
+        <Directory>Localization</Directory>
+      </LocalizationPlugin>
+    
     </Plugins>
+  
   </RuntimeModule>
+
 </Datatable>

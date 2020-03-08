@@ -7504,4 +7504,10 @@ The Counselor ship is heavily oriented toward support modules, with limited weap
   <LocalizationPair Name="%HeroSmartAIUnfallen02Title">Lunabarxes</LocalizationPair>
   <LocalizationPair Name="%HeroSmartAIUnfallen02Description">Lunabarxes had found her place -- or so she thought. Ensconced in a flowering grove in the center of a bustling forest metropolis, Lunabarxes was on the verge of metamorphosis into the final stage of Unfallen life when errant missiles, falling from the wars of some other species in the skies above her planet, erupted around her. Dust-fueled explosives tore up the boulevards and shattered the peace she had sought for so long. Though many Unfallen were thrown into madness, Lunabarxes had been so close to a state of final repose that she was able to pause, sink her roots deep, and slowly absorb and assimilate the Dust. The Dust gradually sharpened Lunabarxes's mind and senses, providing her so much more information and so many new intellectual vistas that she decided to put off the transition from being an exploring Second to becoming a sedentary Third. She now wanders the universe, calmly providing aid where she can -- and still looking for a place to call home.</LocalizationPair>
   
+<!--Skill Tree-->
+  <LocalizationPair Name="%HeroSkillTreeENFERTitle">ENFER skills</LocalizationPair>
+  <LocalizationPair Name="%HeroSkillTreeENFERDescription">This branch contains the ENFER-specific skills</LocalizationPair>
+
+  <LocalizationPair Name="%HeroSkill01ENFER_Title">Person of Means</LocalizationPair>
+  <LocalizationPair Name="%HeroSkill01ENFER_Description">An accomplished financier, the Hero also invests their substantial personal resources into the healthy economic functioning of a particular system.</LocalizationPair>
 </Datatable>
