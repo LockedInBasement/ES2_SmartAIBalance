@@ -203,6 +203,7 @@
   </FactionAffinityMapping>
   <!-- Unfallen -->
   <FactionAffinityMapping Name="AffinityMappingUnfallen" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="5">
+    <Command Name="RecruitHero" Arguments="HeroSmartAIUnfallen02" />
     <Command Name="RecruitHero" Arguments="HeroUnfallen02" />
     <Command Name="RecruitHero" Arguments="HeroAmoeba01" />
     <SimulationDescriptorReference Name="AffinityMappingUnfallen" />

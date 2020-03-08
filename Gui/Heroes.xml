@@ -747,4 +747,15 @@
         </Icons>
         <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitVampirilis04</ModelPath>
     </HeroGuiElement>
+
+<!--Unfallen -->
+        <HeroGuiElement Name="HeroSmartAIUnfallen02">
+        <Title>%HeroSmartAIUnfallen02Title</Title>
+        <Description>%HeroSmartAIUnfallen02Description</Description>
+        <Icons>
+            <Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroUnfallen02Medium" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroUnfallen02Large" />
+        </Icons>
+        <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitUnfallen02</ModelPath>
+    </HeroGuiElement>
 </Datatable>
