@@ -1144,14 +1144,14 @@ HeroPolitics06 - Military
         <Skill Name="HeroSkill02Terrans05"/>
 
         <Affinity Name="HeroAffinityTerrans"/>
-        <Class Name="HeroClassAdmiral"/>
+        <Class Name="HeroClassAdministrator"/>
         <Politics Name="HeroPolitics01"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
 
         <SkillTree Name="HeroSkillTreeGeneric"/>
         <SkillTree Name="HeroSkillTreeTerrans"/>
-        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeAdministrator"/>
         <LevelUpRuleReference Name="HeroLevelUpRule"/>
     </HeroDefinition>
 
