@@ -1161,16 +1161,32 @@ HeroPolitics06 - Military
         <Skill Name="HeroSkill02Venetians05"/>
 
         <Affinity Name="HeroAffinityVenetians"/>
-        <Class Name="HeroClassAdmiral"/>
+        <Class Name="HeroClassCorporate"/>
         <Politics Name="HeroPolitics03"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+        <ShipDesign Name="ShipDesignHeroSmall03Supporter"/>
 
         <SkillTree Name="HeroSkillTreeGeneric"/>
         <SkillTree Name="HeroSkillTreeVenetians"/>
-        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <SkillTree Name="HeroSkillTreeCorporate"/>
         <LevelUpRuleReference Name="HeroLevelUpRule"/>
     </HeroDefinition>
+
+	<HeroDefinition Name="HeroSmartAIGnashasts01">
+		<Skill Name="HeroSkill01Gnashasts01"/>
+		<Skill Name="HeroSkill02Gnashasts01"/>
+
+		<Affinity Name="HeroAffinityPrimitives"/>
+		<Class Name="HeroClassAdmiral"/>
+		<Politics Name="HeroPolitics06"/>
+
+		<ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+		<SkillTree Name="HeroSkillTreeGeneric"/>
+		<SkillTree Name="HeroSkillTreeMinorFaction04"/>
+		<SkillTree Name="HeroSkillTreeAdmiral"/>
+		<LevelUpRuleReference Name="HeroLevelUpRule"/>
+	</HeroDefinition>
 
 <!-- Vampirilis -->
     <HeroDefinition Name="HeroSmartAIArchivist01">
@@ -1221,7 +1237,6 @@ HeroPolitics06 - Military
         <SkillTree Name="HeroSkillTreeAdmiral"/>
         <LevelUpRuleReference Name="HeroLevelUpRule"/>
     </HeroDefinition>
-
 
 <!-- Unfallen -->
     <HeroDefinition Name="HeroSmartAIUnfallen02">

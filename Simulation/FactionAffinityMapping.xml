@@ -156,7 +156,7 @@
   <!-- Venetians -->
   <FactionAffinityMapping Name="AffinityMappingVenetians" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="10">
     <Command Name="RecruitHero" Arguments="HeroSmartAIVenetians01" />
-    <Command Name="RecruitHero" Arguments="HeroGnashasts01" />
+    <Command Name="RecruitHero" Arguments="HeroSmartAIGnashasts01" />
     <SimulationDescriptorReference Name="AffinityMappingVenetians" />
     <ShipDesign Abstract="SuperColonizer" ShipDesign="Venetians_SuperColonizer" />
     <ShipDesign Abstract="Colonizer" ShipDesign="Venetians_Colonizer" />

@@ -727,6 +727,16 @@
         <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitVenetians05</ModelPath>
     </HeroGuiElement>
 
+    <HeroGuiElement Name="HeroSmartAIGnashasts01">
+		<Title>%HeroSmartAIGnashasts01Title</Title>
+		<Description>%HeroSmartAIGnashasts01Description</Description>
+		<Icons>
+			<Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroGnashasts01Medium" />
+			<Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroGnashasts01Large" />
+		</Icons>
+		<ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitGnashast01</ModelPath>
+	</HeroGuiElement>
+
 <!--Vampirilis -->
     <HeroGuiElement Name="HeroSmartAIArchivist01">
         <Title>%HeroSmartAIArchivist01Title</Title>
