@@ -716,6 +716,17 @@
         <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitTerrans05</ModelPath>
     </HeroGuiElement>
 
+<!--Horatio -->
+    <HeroGuiElement Name="HeroSmartAIZvali01">
+        <Title>%HeroSmartAIZvali01Title</Title>
+        <Description>%HeroSmartAIZvali01Description</Description>
+        <Icons>
+            <Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroZvali01Medium" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroZvali01Large" />
+        </Icons>
+        <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitZsvalis</ModelPath>
+    </HeroGuiElement>
+
 <!--Venetians -->
     <HeroGuiElement Name="HeroSmartAIVenetians01">
         <Title>%HeroSmartAIVenetians01Title</Title>

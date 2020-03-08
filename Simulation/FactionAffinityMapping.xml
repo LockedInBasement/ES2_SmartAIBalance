@@ -108,7 +108,7 @@
   <!-- Horatio -->
   <FactionAffinityMapping Name="AffinityMappingHoratio" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="10">
     <Command Name="RecruitHero" Arguments="HeroHoratio01" />
-    <Command Name="RecruitHero" Arguments="HeroZvali01" />
+    <Command Name="RecruitHero" Arguments="HeroSmartAIZvali01" />
     <SimulationDescriptorReference Name="AffinityMappingHoratio" />
     <ShipDesign Abstract="SuperColonizer" ShipDesign="Horatio_SuperColonizer" />
     <ShipDesign Abstract="Colonizer" ShipDesign="Horatio_Colonizer" />
