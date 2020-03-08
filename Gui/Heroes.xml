@@ -748,6 +748,17 @@
         <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitVampirilis04</ModelPath>
     </HeroGuiElement>
 
+<!--TimeLords -->  
+    <HeroGuiElement Name="HeroSmartAIBots01">
+        <Title>%HeroSmartAIBots01Title</Title>
+        <Description>%HeroSmartAIBots01Description</Description>
+        <Icons>
+            <Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroBots01Medium" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroBots01Large" />
+        </Icons>
+        <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitTimebot</ModelPath>
+    </HeroGuiElement>
+
 <!--Unfallen -->
         <HeroGuiElement Name="HeroSmartAIUnfallen02">
         <Title>%HeroSmartAIUnfallen02Title</Title>

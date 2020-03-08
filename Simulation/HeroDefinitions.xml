@@ -1205,6 +1205,24 @@ HeroPolitics06 - Military
         <LevelUpRuleReference Name="HeroLevelUpRule"/>
     </HeroDefinition>
 
+<!-- TimeLords -->
+    <HeroDefinition Name="HeroSmartAIBots01">
+        <Skill Name="HeroSkill01Bots01"/>
+        <Skill Name="HeroSkill02Bots01"/>
+
+        <Affinity Name="HeroAffinityAdvanced"/>
+        <Class Name="HeroClassAdmiral"/>
+        <Politics Name="HeroPolitics04"/>
+
+        <ShipDesign Name="ShipDesignHeroSmall01Attacker"/>
+
+        <SkillTree Name="HeroSkillTreeGeneric"/>
+        <SkillTree Name="HeroSkillTreeMinorFaction03"/>
+        <SkillTree Name="HeroSkillTreeAdmiral"/>
+        <LevelUpRuleReference Name="HeroLevelUpRule"/>
+    </HeroDefinition>
+
+
 <!-- Unfallen -->
     <HeroDefinition Name="HeroSmartAIUnfallen02">
 		<Skill Name="HeroSkill01Unfallen02"/>
@@ -1214,7 +1232,7 @@ HeroPolitics06 - Military
         <Class Name="HeroClassAdministrator"/>
         <Politics Name="HeroPolitics03"/>
 
-        <ShipDesign Name="ShipDesignHeroSmall02Explorer"/>
+        <ShipDesign Name="ShipDesignHeroSmall04Defender"/>
 
         <SkillTree Name="HeroSkillTreeGeneric"/>
         <SkillTree Name="HeroSkillTreeUnfallen"/>

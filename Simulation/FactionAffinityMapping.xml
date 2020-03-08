@@ -180,7 +180,7 @@
   <!-- Time Lords -->
   <FactionAffinityMapping Name="AffinityMappingTimeLords" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="5">
     <Command Name="RecruitHero" Arguments="HeroTimeLords01" />
-    <Command Name="RecruitHero" Arguments="HeroBots01" />
+    <Command Name="RecruitHero" Arguments="HeroSmartAIBots01" />
     <SimulationDescriptorReference Name="AffinityMappingTimeLords" />
     <ShipDesign Abstract="SuperColonizer" ShipDesign="TimeLords_SuperColonizer" />
     <ShipDesign Abstract="Colonizer" ShipDesign="TimeLords_Colonizer" />
@@ -204,7 +204,6 @@
   <!-- Unfallen -->
   <FactionAffinityMapping Name="AffinityMappingUnfallen" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="5">
     <Command Name="RecruitHero" Arguments="HeroSmartAIUnfallen02" />
-    <Command Name="RecruitHero" Arguments="HeroUnfallen02" />
     <Command Name="RecruitHero" Arguments="HeroAmoeba01" />
     <SimulationDescriptorReference Name="AffinityMappingUnfallen" />
     <ShipDesign Abstract="SuperColonizer" ShipDesign="Unfallen_SuperColonizer" />
