@@ -749,19 +749,19 @@
 	</HeroGuiElement>
 
 <!--Vampirilis -->
-    <HeroGuiElement Name="HeroSmartAIArchivist01">
-        <Title>%HeroSmartAIArchivist01Title</Title>
-        <Description>%HeroSmartAIArchivist01Description</Description>
-        <Icons>
-            <Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroArchivist01Medium" />
-            <Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroArchivist01Large" />
-        </Icons>
-        <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitArchivist01</ModelPath>
-    </HeroGuiElement>
-
     <HeroGuiElement Name="HeroSmartAIVampirilis01">
         <Title>%HeroSmartAIVampirilis01Title</Title>
         <Description>%HeroSmartAIVampirilis01Description</Description>
+        <Icons>
+            <Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroVampirilis02Medium" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroVampirilis02Large" />
+        </Icons>
+        <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitVampirilis02</ModelPath>
+    </HeroGuiElement>
+
+    <HeroGuiElement Name="HeroSmartAIVampirilis02">
+        <Title>%HeroSmartAIVampirilis02Title</Title>
+        <Description>%HeroSmartAIVampirilis02Description</Description>
         <Icons>
             <Icon Size="Medium" Path="Bitmaps/Dynamic/Heroes/HeroVampirilis04Medium" />
             <Icon Size="Large" Path="Bitmaps/Dynamic/Heroes/HeroVampirilis04Large" />
